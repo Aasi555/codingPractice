@@ -29,3 +29,12 @@ printUniqueValue([1,2,2,3,55,3,9,3,9,])
 function binary(decimal) {
 	return decimal.toString(2)
 }
+
+//regExp test method
+function asterisk(string) {
+
+	if(/a/.test(string)&&/c/.test(string)){
+	   return true
+	}
+	return false
+}
