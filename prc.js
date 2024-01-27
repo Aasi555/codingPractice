@@ -24,3 +24,8 @@ function emptyArray(arr){
     console.log(arr)
 }
 printUniqueValue([1,2,2,3,55,3,9,3,9,])
+
+
+function binary(decimal) {
+	return decimal.toString(2)
+}
